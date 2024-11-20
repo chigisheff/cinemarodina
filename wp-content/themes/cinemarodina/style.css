@@ -1,0 +1,269 @@
+/*  
+Theme Name: Сайт кинотеатра "Родина" ст. Старощербиновская
+Theme URI: 
+Description: WP Theme  blackview  by <a href="#">i Страница исходников</a>. Рабочее поле состоит из двух блоков. 
+Author: Andrey Chigisheff
+Author URI: 
+
+	This theme was designed and built by iWebNet
+                The CSS, XHTML and design is released under GPL
+                http://www.opensource.org/licenses/gpl-license.php
+*/
+
+* { padding: 0; margin: 0; border: 0; }
+ul{
+  list-style: none;}
+a, a:after, a:active {
+  text-decoration: none ;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+body{
+  width: 100.01%;
+  //height: 1033px;
+}
+html{
+  background-color:white;
+  font-family: Verdana, Arial,  Helvetica, sans-serif;
+  font-style: normal;
+
+}
+.header{
+    position: relative;
+  height:   200px;
+  width: 960px;
+  background: url(../scr/bkhead-2.jpg) no-repeat;
+  background-size: cover;
+}
+.header img{
+    //position: absolute; left:220px; top:30px; width:149px; height:122px;
+    position: absolute; left:20px; top:40px; width:160px; height:122px;
+}
+.mainmenu{
+  height:  39px;
+  width:100%;
+  background-color: #d2bd93;
+}
+    .menu{
+      width: 680px;
+      margin: 1px 0px 1px 35px;
+      height: 35px;
+      display: inline-block;
+      vertical-align: middle;
+      font-weight: bold;
+    }
+    .menu li.page_item{
+        float:left;
+      height: 35px;
+      margin: 0 20px;
+      display: inline-block;
+      vertical-align: middle;
+
+    }
+
+    .menu li.page_item a{
+
+      width: 100px;
+      height:35px;
+      border: 1px solid #c7b693;
+      text-align: center;
+
+      display: table-cell;
+      vertical-align: middle;
+
+    }
+
+    .menu li.page_item a,a:after, a:active,a:hover{
+       text-decoration: none ;
+       color: #753b23;
+       font-family:  Verdana, Arial, Helvetica, sans-serif;
+       font-style: bold;
+
+    }
+
+.time_center{float: right;font-size: 12px; color:#753b23; line-height: 35px;margin-right: 20px;}
+.mwind{
+  padding: 15px;
+  width: 960px;
+  height:100%;
+  margin: 0 auto;
+  display: block;
+}
+.mainbody{
+  //height: 929px;
+  width: 960px;
+  color: #753b23;
+
+}
+.mainbodyafisha{
+    //height: 929px;
+    width: 960px;
+    color: #753b23;
+}
+    .content-container{
+        font-size: 10px;
+        color: #753b23; 
+        background: white;
+        margin: 5px 20px;
+        padding: 5px 10px;
+        border: 2px solid #753b23;
+        border-radius: 3px;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+            
+        
+    }
+    .content-container h2{
+        padding-left: 20px;
+        background: #e1d9b5;
+        width: 75%;
+        text-align: left;
+        
+    }
+    .content-container a{
+        padding-left: 20px;
+        background: #e1d9b5;
+        font-family:  serif;
+        color: #753b23;
+        font-size: 12px;
+        font-style:  italic;
+        font-weight: bold;
+    }
+    .blank{
+        height: 22px;
+        background-color: white;
+        
+        margin-left: 25px;
+    }
+        .blank p{
+            width:169px;
+            //border-right: 1px solid #753b23;
+            font-size: 10px;
+            color: #753b23;
+            float: left;
+            margin-left: -21px;
+            margin-top: 5px;
+            text-align: center;
+        }
+
+    .row{
+       margin: 25px 0 12px 25px ;
+       margin-top: 25px;
+    }
+        .head{
+            font-size: 14px;
+        }
+        .scr{
+          margin-top: 12px;
+          height: 97px;
+          border: 1px solid #c7b693;
+        }
+        .one_screen{width: 171px; height: 95px; margin: 1px; float: left;}
+            .one_screen img{width: 170px; max-height: 95px;margin: 1px 0px;}
+            
+        .namefield {
+               height: 25px;
+               padding-left: 25px; 
+        }
+            .one_name{
+                width:172px;
+                height: 23px;
+                //border-right: 1px solid #753b23;
+                font-size: 10px;
+                color: #753b23;
+                float: left;
+                margin-left: 1px 0px;
+                //margin-top: 5px;
+                text-align: center;
+            }
+        .btn{
+          height: 25px;
+          margin-top: 0px;
+          margin-bottom: 0px;
+          background-color: #c7b693;
+        }
+            .one_button{
+                width:170px;
+                height: 23px;
+                border-right: 2px solid white;//#753b23;
+                background: #753b23;
+                font-size: 10px;
+                color: #753b23;
+                float: left;
+                margin: 1px;
+                text-align: center;
+                border-radius: 5px;
+                color: white;
+            }
+.wp-image-85{ height: 95px;}
+.info_field{
+  width: 723px;
+  height: 1024px;
+  float: left;
+  background-color: #f0e4c0;
+  padding: 0 5px 0 0;
+  margin-top: 4px;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  text-align: justify;
+}
+    .info_field p{
+        //font-size: 14px;
+        color: black;
+        //margin-left: 15px;
+        padding-left: 25px;
+        font-weight: bold;
+    }
+    .genres{
+        float: right;
+        font-style:  italic;
+        //margin: 0 10px 0 0;
+        font: bold italic 12px arial;
+    }
+.film-info{
+   margin: 5px 20px; 
+}
+.main-show{
+    width: 650px;
+    margin-left: 15px;
+    background: whitesmoke;
+    border-radius: 8px;
+    padding: 25px;
+}
+.navigation-pg{
+    text-align: center;
+    font-size: 12px;
+    color: #753b23; 
+    margin: 5px 20px;
+    padding: 5px 10px;
+    border: 2px solid #753b23;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.navigation-pg a, a:after, a:active, a:hover{
+    text-decoration: none;
+    color: black;
+}
+.navigation-pg a:hover{
+    text-decoration: underline;
+}
+.reclam_field{
+  width: 223px;
+  height: 1024px;
+  float: right;
+  background-color: #f0e4cd;
+  padding:0 0 0 5px;
+  margin-top: 4px;
+}
+
+.footer{
+  height: 45px;
+  width: 960px;
+  background-color: #754028;
+  position: fixed;
+  bottom: 0px;
+
+}

@@ -1,0 +1,6 @@
+User-Agent: *
+Crawl-delay: 20
+Host:www.cinemarodina.ru
+User-agent: Yandex
+Allow: /
+Sitemap: http://www.cinemarodina.ru/sitemap.xml
